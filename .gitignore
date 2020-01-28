@@ -1,0 +1,14 @@
+./lib-native/ios/Carthage/Build/Mac
+./lib-native/ios/Carthage/Checkouts
+.gradle
+obj
+bin
+*.suo
+*.pdb
+.vs
+*.aar
+*.aar.asc
+*.pom
+*.pom.asc
+./lib-native/ios/Carthage
+./lib-native/ios/Pods/
