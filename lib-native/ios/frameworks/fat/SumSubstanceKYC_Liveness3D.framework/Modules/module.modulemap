@@ -1,0 +1,6 @@
+framework module SumSubstanceKYC_Liveness3D {
+  umbrella header "SumSubstanceKYC_Liveness3D.h"
+
+  export *
+  module * { export * }
+}
