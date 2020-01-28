@@ -1,0 +1,672 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E67269523E0482E00C2E261 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E67269423E0482E00C2E261 /* AppDelegate.m */; };
+		7E67269823E0482E00C2E261 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E67269723E0482E00C2E261 /* SceneDelegate.m */; };
+		7E67269B23E0482E00C2E261 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E67269A23E0482E00C2E261 /* ViewController.m */; };
+		7E67269E23E0482E00C2E261 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E67269C23E0482E00C2E261 /* Main.storyboard */; };
+		7E6726A123E0482E00C2E261 /* Sumsub_iOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7E67269F23E0482E00C2E261 /* Sumsub_iOS.xcdatamodeld */; };
+		7E6726A323E0483800C2E261 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E6726A223E0483800C2E261 /* Assets.xcassets */; };
+		7E6726A623E0483800C2E261 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E6726A423E0483800C2E261 /* LaunchScreen.storyboard */; };
+		7E6726A923E0483800C2E261 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E6726A823E0483800C2E261 /* main.m */; };
+		7E6726B323E0483900C2E261 /* Sumsub_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E6726B223E0483900C2E261 /* Sumsub_iOSTests.m */; };
+		7E6726BE23E0483900C2E261 /* Sumsub_iOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E6726BD23E0483900C2E261 /* Sumsub_iOSUITests.m */; };
+		A0A4EC6DFD9B499D70942989 /* Pods_Sumsub_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3360B0B6ED702D5ACFB9FE2F /* Pods_Sumsub_iOS.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E6726AF23E0483900C2E261 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E67268823E0482D00C2E261 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E67268F23E0482E00C2E261;
+			remoteInfo = "Sumsub-iOS";
+		};
+		7E6726BA23E0483900C2E261 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E67268823E0482D00C2E261 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E67268F23E0482E00C2E261;
+			remoteInfo = "Sumsub-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3360B0B6ED702D5ACFB9FE2F /* Pods_Sumsub_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sumsub_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E67269023E0482E00C2E261 /* Sumsub-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sumsub-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E67269323E0482E00C2E261 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7E67269423E0482E00C2E261 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7E67269623E0482E00C2E261 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		7E67269723E0482E00C2E261 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		7E67269923E0482E00C2E261 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7E67269A23E0482E00C2E261 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7E67269D23E0482E00C2E261 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7E6726A023E0482E00C2E261 /* Sumsub_iOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Sumsub_iOS.xcdatamodel; sourceTree = "<group>"; };
+		7E6726A223E0483800C2E261 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E6726A523E0483800C2E261 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7E6726A723E0483800C2E261 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E6726A823E0483800C2E261 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7E6726AE23E0483900C2E261 /* Sumsub-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sumsub-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E6726B223E0483900C2E261 /* Sumsub_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sumsub_iOSTests.m; sourceTree = "<group>"; };
+		7E6726B423E0483900C2E261 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E6726B923E0483900C2E261 /* Sumsub-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sumsub-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E6726BD23E0483900C2E261 /* Sumsub_iOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sumsub_iOSUITests.m; sourceTree = "<group>"; };
+		7E6726BF23E0483900C2E261 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8A4A4AA407AE91E11B7E014 /* Pods-Sumsub-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sumsub-iOS.release.xcconfig"; path = "Target Support Files/Pods-Sumsub-iOS/Pods-Sumsub-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		BB80E627C9C5C593AA7B1F16 /* Pods-Sumsub-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sumsub-iOS.debug.xcconfig"; path = "Target Support Files/Pods-Sumsub-iOS/Pods-Sumsub-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E67268D23E0482E00C2E261 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0A4EC6DFD9B499D70942989 /* Pods_Sumsub_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E6726AB23E0483900C2E261 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E6726B623E0483900C2E261 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C0AAD58DB040E16D792B2BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3360B0B6ED702D5ACFB9FE2F /* Pods_Sumsub_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7E67268723E0482D00C2E261 = {
+			isa = PBXGroup;
+			children = (
+				7E67269223E0482E00C2E261 /* Sumsub-iOS */,
+				7E6726B123E0483900C2E261 /* Sumsub-iOSTests */,
+				7E6726BC23E0483900C2E261 /* Sumsub-iOSUITests */,
+				7E67269123E0482E00C2E261 /* Products */,
+				D8B9E7C64A7979C0F47AE455 /* Pods */,
+				3C0AAD58DB040E16D792B2BF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7E67269123E0482E00C2E261 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E67269023E0482E00C2E261 /* Sumsub-iOS.app */,
+				7E6726AE23E0483900C2E261 /* Sumsub-iOSTests.xctest */,
+				7E6726B923E0483900C2E261 /* Sumsub-iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E67269223E0482E00C2E261 /* Sumsub-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7E67269323E0482E00C2E261 /* AppDelegate.h */,
+				7E67269423E0482E00C2E261 /* AppDelegate.m */,
+				7E67269623E0482E00C2E261 /* SceneDelegate.h */,
+				7E67269723E0482E00C2E261 /* SceneDelegate.m */,
+				7E67269923E0482E00C2E261 /* ViewController.h */,
+				7E67269A23E0482E00C2E261 /* ViewController.m */,
+				7E67269C23E0482E00C2E261 /* Main.storyboard */,
+				7E6726A223E0483800C2E261 /* Assets.xcassets */,
+				7E6726A423E0483800C2E261 /* LaunchScreen.storyboard */,
+				7E6726A723E0483800C2E261 /* Info.plist */,
+				7E6726A823E0483800C2E261 /* main.m */,
+				7E67269F23E0482E00C2E261 /* Sumsub_iOS.xcdatamodeld */,
+			);
+			path = "Sumsub-iOS";
+			sourceTree = "<group>";
+		};
+		7E6726B123E0483900C2E261 /* Sumsub-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				7E6726B223E0483900C2E261 /* Sumsub_iOSTests.m */,
+				7E6726B423E0483900C2E261 /* Info.plist */,
+			);
+			path = "Sumsub-iOSTests";
+			sourceTree = "<group>";
+		};
+		7E6726BC23E0483900C2E261 /* Sumsub-iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7E6726BD23E0483900C2E261 /* Sumsub_iOSUITests.m */,
+				7E6726BF23E0483900C2E261 /* Info.plist */,
+			);
+			path = "Sumsub-iOSUITests";
+			sourceTree = "<group>";
+		};
+		D8B9E7C64A7979C0F47AE455 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BB80E627C9C5C593AA7B1F16 /* Pods-Sumsub-iOS.debug.xcconfig */,
+				B8A4A4AA407AE91E11B7E014 /* Pods-Sumsub-iOS.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E67268F23E0482E00C2E261 /* Sumsub-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E6726C223E0483900C2E261 /* Build configuration list for PBXNativeTarget "Sumsub-iOS" */;
+			buildPhases = (
+				90F1645A3EC1C9E6C8533B36 /* [CP] Check Pods Manifest.lock */,
+				7E67268C23E0482E00C2E261 /* Sources */,
+				7E67268D23E0482E00C2E261 /* Frameworks */,
+				7E67268E23E0482E00C2E261 /* Resources */,
+				D6E11EB9AF72A12259078896 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sumsub-iOS";
+			productName = "Sumsub-iOS";
+			productReference = 7E67269023E0482E00C2E261 /* Sumsub-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7E6726AD23E0483900C2E261 /* Sumsub-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E6726C523E0483900C2E261 /* Build configuration list for PBXNativeTarget "Sumsub-iOSTests" */;
+			buildPhases = (
+				7E6726AA23E0483900C2E261 /* Sources */,
+				7E6726AB23E0483900C2E261 /* Frameworks */,
+				7E6726AC23E0483900C2E261 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E6726B023E0483900C2E261 /* PBXTargetDependency */,
+			);
+			name = "Sumsub-iOSTests";
+			productName = "Sumsub-iOSTests";
+			productReference = 7E6726AE23E0483900C2E261 /* Sumsub-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7E6726B823E0483900C2E261 /* Sumsub-iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E6726C823E0483900C2E261 /* Build configuration list for PBXNativeTarget "Sumsub-iOSUITests" */;
+			buildPhases = (
+				7E6726B523E0483900C2E261 /* Sources */,
+				7E6726B623E0483900C2E261 /* Frameworks */,
+				7E6726B723E0483900C2E261 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E6726BB23E0483900C2E261 /* PBXTargetDependency */,
+			);
+			name = "Sumsub-iOSUITests";
+			productName = "Sumsub-iOSUITests";
+			productReference = 7E6726B923E0483900C2E261 /* Sumsub-iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E67268823E0482D00C2E261 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = sumsubstance;
+				TargetAttributes = {
+					7E67268F23E0482E00C2E261 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					7E6726AD23E0483900C2E261 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 7E67268F23E0482E00C2E261;
+					};
+					7E6726B823E0483900C2E261 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 7E67268F23E0482E00C2E261;
+					};
+				};
+			};
+			buildConfigurationList = 7E67268B23E0482D00C2E261 /* Build configuration list for PBXProject "Sumsub-iOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E67268723E0482D00C2E261;
+			productRefGroup = 7E67269123E0482E00C2E261 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E67268F23E0482E00C2E261 /* Sumsub-iOS */,
+				7E6726AD23E0483900C2E261 /* Sumsub-iOSTests */,
+				7E6726B823E0483900C2E261 /* Sumsub-iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E67268E23E0482E00C2E261 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E6726A623E0483800C2E261 /* LaunchScreen.storyboard in Resources */,
+				7E6726A323E0483800C2E261 /* Assets.xcassets in Resources */,
+				7E67269E23E0482E00C2E261 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E6726AC23E0483900C2E261 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E6726B723E0483900C2E261 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		90F1645A3EC1C9E6C8533B36 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sumsub-iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6E11EB9AF72A12259078896 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sumsub-iOS/Pods-Sumsub-iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sumsub-iOS/Pods-Sumsub-iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sumsub-iOS/Pods-Sumsub-iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E67268C23E0482E00C2E261 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E6726A923E0483800C2E261 /* main.m in Sources */,
+				7E6726A123E0482E00C2E261 /* Sumsub_iOS.xcdatamodeld in Sources */,
+				7E67269B23E0482E00C2E261 /* ViewController.m in Sources */,
+				7E67269523E0482E00C2E261 /* AppDelegate.m in Sources */,
+				7E67269823E0482E00C2E261 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E6726AA23E0483900C2E261 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E6726B323E0483900C2E261 /* Sumsub_iOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E6726B523E0483900C2E261 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E6726BE23E0483900C2E261 /* Sumsub_iOSUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E6726B023E0483900C2E261 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E67268F23E0482E00C2E261 /* Sumsub-iOS */;
+			targetProxy = 7E6726AF23E0483900C2E261 /* PBXContainerItemProxy */;
+		};
+		7E6726BB23E0483900C2E261 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E67268F23E0482E00C2E261 /* Sumsub-iOS */;
+			targetProxy = 7E6726BA23E0483900C2E261 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7E67269C23E0482E00C2E261 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E67269D23E0482E00C2E261 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7E6726A423E0483800C2E261 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E6726A523E0483800C2E261 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E6726C023E0483900C2E261 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7E6726C123E0483900C2E261 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E6726C323E0483900C2E261 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB80E627C9C5C593AA7B1F16 /* Pods-Sumsub-iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Sumsub-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sumsubstance.Sumsub-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7E6726C423E0483900C2E261 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8A4A4AA407AE91E11B7E014 /* Pods-Sumsub-iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Sumsub-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sumsubstance.Sumsub-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7E6726C623E0483900C2E261 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Sumsub-iOSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sumsubstance.Sumsub-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sumsub-iOS.app/Sumsub-iOS";
+			};
+			name = Debug;
+		};
+		7E6726C723E0483900C2E261 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Sumsub-iOSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sumsubstance.Sumsub-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sumsub-iOS.app/Sumsub-iOS";
+			};
+			name = Release;
+		};
+		7E6726C923E0483900C2E261 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Sumsub-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sumsubstance.Sumsub-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Sumsub-iOS";
+			};
+			name = Debug;
+		};
+		7E6726CA23E0483900C2E261 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Sumsub-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sumsubstance.Sumsub-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Sumsub-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E67268B23E0482D00C2E261 /* Build configuration list for PBXProject "Sumsub-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E6726C023E0483900C2E261 /* Debug */,
+				7E6726C123E0483900C2E261 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E6726C223E0483900C2E261 /* Build configuration list for PBXNativeTarget "Sumsub-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E6726C323E0483900C2E261 /* Debug */,
+				7E6726C423E0483900C2E261 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E6726C523E0483900C2E261 /* Build configuration list for PBXNativeTarget "Sumsub-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E6726C623E0483900C2E261 /* Debug */,
+				7E6726C723E0483900C2E261 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E6726C823E0483900C2E261 /* Build configuration list for PBXNativeTarget "Sumsub-iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E6726C923E0483900C2E261 /* Debug */,
+				7E6726CA23E0483900C2E261 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7E67269F23E0482E00C2E261 /* Sumsub_iOS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7E6726A023E0482E00C2E261 /* Sumsub_iOS.xcdatamodel */,
+			);
+			currentVersion = 7E6726A023E0482E00C2E261 /* Sumsub_iOS.xcdatamodel */;
+			path = Sumsub_iOS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7E67268823E0482D00C2E261 /* Project object */;
+}
