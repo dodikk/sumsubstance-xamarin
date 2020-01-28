@@ -10,7 +10,7 @@ bin
 *.aar.asc
 *.pom
 *.pom.asc
-./lib-native/ios/Carthage
+lib-native/ios/Carthage
 lib-native/ios/Pods/
 *.xcuserstate
 lib-native/ios/Sumsub-iOS.xcworkspace/xcshareddata/
