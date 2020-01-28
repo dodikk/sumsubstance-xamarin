@@ -129,5 +129,9 @@
       <Project>{BE4C50C6-BD86-4BCA-A894-EBE484F6E816}</Project>
       <Name>SumSubFormsDemo</Name>
     </ProjectReference>
+    <ProjectReference Include="..\..\..\lib-bindings\SumSubSDK\SumSubSDK.ios\SumSubSDK.ios.csproj">
+      <Project>{F6AF4061-28CD-4410-B9AC-6A482ABF59E9}</Project>
+      <Name>SumSubSDK.ios</Name>
+    </ProjectReference>
   </ItemGroup>
 </Project>
