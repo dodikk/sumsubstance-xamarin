@@ -14,3 +14,5 @@ bin
 lib-native/ios/Pods/
 *.xcuserstate
 lib-native/ios/Sumsub-iOS.xcworkspace/xcshareddata/
+lib-native/ios/SumSubstanceKYC.zip
+lib-native/ios/SumSubstanceKYC-frameworks
