@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "bindings", "bindings", "{F2
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumSubSDK.ios", "lib-bindings\SumSubSDK\SumSubSDK.ios\SumSubSDK.ios.csproj", "{F6AF4061-28CD-4410-B9AC-6A482ABF59E9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumSubSDK.DocumentTracker.ios", "lib-bindings\SumSubSDK\SumSubSDK.DocumentTracker.ios\SumSubSDK.DocumentTracker.ios.csproj", "{6E35753C-88C1-49AD-AA5D-276CDD6EA928}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|iPhoneSimulator = Debug|iPhoneSimulator
@@ -71,11 +73,24 @@ Global
 		{F6AF4061-28CD-4410-B9AC-6A482ABF59E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F6AF4061-28CD-4410-B9AC-6A482ABF59E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F6AF4061-28CD-4410-B9AC-6A482ABF59E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E35753C-88C1-49AD-AA5D-276CDD6EA928}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{6E35753C-88C1-49AD-AA5D-276CDD6EA928}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{6E35753C-88C1-49AD-AA5D-276CDD6EA928}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{6E35753C-88C1-49AD-AA5D-276CDD6EA928}.Release|iPhone.Build.0 = Release|Any CPU
+		{6E35753C-88C1-49AD-AA5D-276CDD6EA928}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{6E35753C-88C1-49AD-AA5D-276CDD6EA928}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{6E35753C-88C1-49AD-AA5D-276CDD6EA928}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{6E35753C-88C1-49AD-AA5D-276CDD6EA928}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{6E35753C-88C1-49AD-AA5D-276CDD6EA928}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E35753C-88C1-49AD-AA5D-276CDD6EA928}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E35753C-88C1-49AD-AA5D-276CDD6EA928}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E35753C-88C1-49AD-AA5D-276CDD6EA928}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{BE4C50C6-BD86-4BCA-A894-EBE484F6E816} = {9247616A-CCF4-4202-A779-98D5D299820D}
 		{44A42F99-DB77-4A29-A49C-CF3B452AB956} = {9247616A-CCF4-4202-A779-98D5D299820D}
 		{E7EAF801-30DB-4D99-AB1A-5D79DCEDB467} = {9247616A-CCF4-4202-A779-98D5D299820D}
 		{F6AF4061-28CD-4410-B9AC-6A482ABF59E9} = {F2F5EAD0-A6A9-4CFE-A90E-A1FB09B20164}
+		{6E35753C-88C1-49AD-AA5D-276CDD6EA928} = {F2F5EAD0-A6A9-4CFE-A90E-A1FB09B20164}
 	EndGlobalSection
 EndGlobal
