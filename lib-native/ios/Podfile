@@ -1,0 +1,18 @@
+platform :ios, '9.3'
+
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/SumSubstance/Specs.git'
+
+use_frameworks!
+
+project './Sumsub-iOS/Sumsub-iOS.xcodeproj'
+
+target 'Sumsub-iOS' do
+
+  ## [alex-d] using minimal set of features to reduce dependencies amount
+  #  as long as we only need name and "id" document scan,
+  #  we do not seem to need ```FaceTracker``` or ```Liveness3D```/```ZoomAuthSDK```
+  # ---
+  pod 'SumSubstanceKYC/DocumentTracker'
+
+end
