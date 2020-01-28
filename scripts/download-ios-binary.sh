@@ -18,3 +18,9 @@ cd "$LAUNCH_DIR"
 
 
 cd "$LAUNCH_DIR"
+
+
+# xcodebuild \
+#    -scheme Sumsub-iOS \
+#    -sdk iphoneos \
+#    -configuration Release \
