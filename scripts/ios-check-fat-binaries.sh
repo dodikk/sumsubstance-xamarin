@@ -139,4 +139,15 @@ echo -
 echo ---
 
 
+echo ---
+echo -
+echo ---
+file ./TransitionKit.framework/TransitionKit
+echo ---
+echo -
+echo ---
+
+
+
+
 cd "$LAUNCH_DIR"

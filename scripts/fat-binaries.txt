@@ -1,0 +1,174 @@
+./PocketSocket.framework
+./Reachability.framework
+./SumSubstanceKYC.framework
+./YYText.framework
+./ReactiveObjC.framework
+./PocketSVG.framework
+./SDWebImageMapKit.framework
+./SumSubstanceKYC_Liveness3D.framework
+./SOCKit.framework
+./RestKit.framework
+./RKValueTransformers.framework
+./SumSubstanceKYC_FaceTracker.framework
+./SumSubstanceKYC_DocumentTracker.framework
+./SDWebImage.framework
+./ISO8601DateFormatterValueTransformer.framework
+---
+-
+---
+./PocketSocket.framework/PocketSocket: Mach-O universal binary with 3 architectures: [x86_64:Mach-O 64-bit dynamically linked shared library x86_64] [arm_v7:Mach-O dynamically linked shared library arm_v7] [arm64:Mach-O 64-bit dynamically linked shared library arm64]
+./PocketSocket.framework/PocketSocket (for architecture x86_64):	Mach-O 64-bit dynamically linked shared library x86_64
+./PocketSocket.framework/PocketSocket (for architecture armv7):	Mach-O dynamically linked shared library arm_v7
+./PocketSocket.framework/PocketSocket (for architecture arm64):	Mach-O 64-bit dynamically linked shared library arm64
+---
+-
+---
+---
+-
+---
+./Reachability.framework/Reachability: Mach-O universal binary with 3 architectures: [x86_64:Mach-O 64-bit dynamically linked shared library x86_64] [arm_v7:Mach-O dynamically linked shared library arm_v7] [arm64:Mach-O 64-bit dynamically linked shared library arm64]
+./Reachability.framework/Reachability (for architecture x86_64):	Mach-O 64-bit dynamically linked shared library x86_64
+./Reachability.framework/Reachability (for architecture armv7):	Mach-O dynamically linked shared library arm_v7
+./Reachability.framework/Reachability (for architecture arm64):	Mach-O 64-bit dynamically linked shared library arm64
+---
+-
+---
+---
+-
+---
+./SumSubstanceKYC.framework/SumSubstanceKYC: Mach-O universal binary with 4 architectures: [x86_64:Mach-O 64-bit dynamically linked shared library x86_64] [i386] [arm_v7] [arm64]
+./SumSubstanceKYC.framework/SumSubstanceKYC (for architecture x86_64):	Mach-O 64-bit dynamically linked shared library x86_64
+./SumSubstanceKYC.framework/SumSubstanceKYC (for architecture i386):	Mach-O dynamically linked shared library i386
+./SumSubstanceKYC.framework/SumSubstanceKYC (for architecture armv7):	Mach-O dynamically linked shared library arm_v7
+./SumSubstanceKYC.framework/SumSubstanceKYC (for architecture arm64):	Mach-O 64-bit dynamically linked shared library arm64
+---
+-
+---
+---
+-
+---
+./YYText.framework/YYText: Mach-O universal binary with 4 architectures: [i386:Mach-O dynamically linked shared library i386] [x86_64:Mach-O 64-bit dynamically linked shared library x86_64] [arm_v7] [arm64]
+./YYText.framework/YYText (for architecture i386):	Mach-O dynamically linked shared library i386
+./YYText.framework/YYText (for architecture x86_64):	Mach-O 64-bit dynamically linked shared library x86_64
+./YYText.framework/YYText (for architecture armv7):	Mach-O dynamically linked shared library arm_v7
+./YYText.framework/YYText (for architecture arm64):	Mach-O 64-bit dynamically linked shared library arm64
+---
+-
+---
+---
+-
+---
+./ReactiveObjC.framework/ReactiveObjC: Mach-O universal binary with 4 architectures: [i386:Mach-O dynamically linked shared library i386] [x86_64] [arm_v7] [arm64]
+./ReactiveObjC.framework/ReactiveObjC (for architecture i386):	Mach-O dynamically linked shared library i386
+./ReactiveObjC.framework/ReactiveObjC (for architecture x86_64):	Mach-O 64-bit dynamically linked shared library x86_64
+./ReactiveObjC.framework/ReactiveObjC (for architecture armv7):	Mach-O dynamically linked shared library arm_v7
+./ReactiveObjC.framework/ReactiveObjC (for architecture arm64):	Mach-O 64-bit dynamically linked shared library arm64
+---
+-
+---
+---
+-
+---
+./PocketSVG.framework/PocketSVG: Mach-O universal binary with 4 architectures: [i386:Mach-O dynamically linked shared library i386] [x86_64:Mach-O 64-bit dynamically linked shared library x86_64] [arm_v7:Mach-O dynamically linked shared library arm_v7] [arm64:Mach-O 64-bit dynamically linked shared library arm64]
+./PocketSVG.framework/PocketSVG (for architecture i386):	Mach-O dynamically linked shared library i386
+./PocketSVG.framework/PocketSVG (for architecture x86_64):	Mach-O 64-bit dynamically linked shared library x86_64
+./PocketSVG.framework/PocketSVG (for architecture armv7):	Mach-O dynamically linked shared library arm_v7
+./PocketSVG.framework/PocketSVG (for architecture arm64):	Mach-O 64-bit dynamically linked shared library arm64
+---
+-
+---
+---
+-
+---
+./SDWebImageMapKit.framework/SDWebImageMapKit: Mach-O universal binary with 4 architectures: [i386:Mach-O dynamically linked shared library i386] [x86_64:Mach-O 64-bit dynamically linked shared library x86_64] [arm_v7:Mach-O dynamically linked shared library arm_v7] [arm64:Mach-O 64-bit dynamically linked shared library arm64]
+./SDWebImageMapKit.framework/SDWebImageMapKit (for architecture i386):	Mach-O dynamically linked shared library i386
+./SDWebImageMapKit.framework/SDWebImageMapKit (for architecture x86_64):	Mach-O 64-bit dynamically linked shared library x86_64
+./SDWebImageMapKit.framework/SDWebImageMapKit (for architecture armv7):	Mach-O dynamically linked shared library arm_v7
+./SDWebImageMapKit.framework/SDWebImageMapKit (for architecture arm64):	Mach-O 64-bit dynamically linked shared library arm64
+---
+-
+---
+---
+-
+---
+./SumSubstanceKYC_Liveness3D.framework/SumSubstanceKYC_Liveness3D: Mach-O universal binary with 4 architectures: [x86_64:Mach-O 64-bit dynamically linked shared library x86_64] [i386:Mach-O dynamically linked shared library i386] [arm_v7:Mach-O dynamically linked shared library arm_v7] [arm64:Mach-O 64-bit dynamically linked shared library arm64]
+./SumSubstanceKYC_Liveness3D.framework/SumSubstanceKYC_Liveness3D (for architecture x86_64):	Mach-O 64-bit dynamically linked shared library x86_64
+./SumSubstanceKYC_Liveness3D.framework/SumSubstanceKYC_Liveness3D (for architecture i386):	Mach-O dynamically linked shared library i386
+./SumSubstanceKYC_Liveness3D.framework/SumSubstanceKYC_Liveness3D (for architecture armv7):	Mach-O dynamically linked shared library arm_v7
+./SumSubstanceKYC_Liveness3D.framework/SumSubstanceKYC_Liveness3D (for architecture arm64):	Mach-O 64-bit dynamically linked shared library arm64
+---
+-
+---
+---
+-
+---
+./SOCKit.framework/SOCKit: Mach-O universal binary with 3 architectures: [x86_64:Mach-O 64-bit dynamically linked shared library x86_64] [arm_v7:Mach-O dynamically linked shared library arm_v7] [arm64:Mach-O 64-bit dynamically linked shared library arm64]
+./SOCKit.framework/SOCKit (for architecture x86_64):	Mach-O 64-bit dynamically linked shared library x86_64
+./SOCKit.framework/SOCKit (for architecture armv7):	Mach-O dynamically linked shared library arm_v7
+./SOCKit.framework/SOCKit (for architecture arm64):	Mach-O 64-bit dynamically linked shared library arm64
+---
+-
+---
+---
+-
+---
+./RestKit.framework/RestKit: Mach-O universal binary with 3 architectures: [x86_64:Mach-O 64-bit dynamically linked shared library x86_64] [arm_v7] [arm64]
+./RestKit.framework/RestKit (for architecture x86_64):	Mach-O 64-bit dynamically linked shared library x86_64
+./RestKit.framework/RestKit (for architecture armv7):	Mach-O dynamically linked shared library arm_v7
+./RestKit.framework/RestKit (for architecture arm64):	Mach-O 64-bit dynamically linked shared library arm64
+---
+-
+---
+---
+-
+---
+./RKValueTransformers.framework/RKValueTransformers: Mach-O universal binary with 3 architectures: [x86_64:Mach-O 64-bit dynamically linked shared library x86_64] [arm_v7:Mach-O dynamically linked shared library arm_v7] [arm64:Mach-O 64-bit dynamically linked shared library arm64]
+./RKValueTransformers.framework/RKValueTransformers (for architecture x86_64):	Mach-O 64-bit dynamically linked shared library x86_64
+./RKValueTransformers.framework/RKValueTransformers (for architecture armv7):	Mach-O dynamically linked shared library arm_v7
+./RKValueTransformers.framework/RKValueTransformers (for architecture arm64):	Mach-O 64-bit dynamically linked shared library arm64
+---
+-
+---
+---
+-
+---
+./SumSubstanceKYC_FaceTracker.framework/SumSubstanceKYC_FaceTracker: Mach-O universal binary with 4 architectures: [x86_64:Mach-O 64-bit dynamically linked shared library x86_64] [i386:Mach-O dynamically linked shared library i386] [arm_v7:Mach-O dynamically linked shared library arm_v7] [arm64]
+./SumSubstanceKYC_FaceTracker.framework/SumSubstanceKYC_FaceTracker (for architecture x86_64):	Mach-O 64-bit dynamically linked shared library x86_64
+./SumSubstanceKYC_FaceTracker.framework/SumSubstanceKYC_FaceTracker (for architecture i386):	Mach-O dynamically linked shared library i386
+./SumSubstanceKYC_FaceTracker.framework/SumSubstanceKYC_FaceTracker (for architecture armv7):	Mach-O dynamically linked shared library arm_v7
+./SumSubstanceKYC_FaceTracker.framework/SumSubstanceKYC_FaceTracker (for architecture arm64):	Mach-O 64-bit dynamically linked shared library arm64
+---
+-
+---
+---
+-
+---
+./SumSubstanceKYC_DocumentTracker.framework/SumSubstanceKYC_DocumentTracker: Mach-O universal binary with 4 architectures: [x86_64:Mach-O 64-bit dynamically linked shared library x86_64] [i386] [arm_v7] [arm64]
+./SumSubstanceKYC_DocumentTracker.framework/SumSubstanceKYC_DocumentTracker (for architecture x86_64):	Mach-O 64-bit dynamically linked shared library x86_64
+./SumSubstanceKYC_DocumentTracker.framework/SumSubstanceKYC_DocumentTracker (for architecture i386):	Mach-O dynamically linked shared library i386
+./SumSubstanceKYC_DocumentTracker.framework/SumSubstanceKYC_DocumentTracker (for architecture armv7):	Mach-O dynamically linked shared library arm_v7
+./SumSubstanceKYC_DocumentTracker.framework/SumSubstanceKYC_DocumentTracker (for architecture arm64):	Mach-O 64-bit dynamically linked shared library arm64
+---
+-
+---
+---
+-
+---
+./SDWebImage.framework/SDWebImage: Mach-O universal binary with 4 architectures: [i386:Mach-O dynamically linked shared library i386] [x86_64:Mach-O 64-bit dynamically linked shared library x86_64] [arm_v7] [arm64]
+./SDWebImage.framework/SDWebImage (for architecture i386):	Mach-O dynamically linked shared library i386
+./SDWebImage.framework/SDWebImage (for architecture x86_64):	Mach-O 64-bit dynamically linked shared library x86_64
+./SDWebImage.framework/SDWebImage (for architecture armv7):	Mach-O dynamically linked shared library arm_v7
+./SDWebImage.framework/SDWebImage (for architecture arm64):	Mach-O 64-bit dynamically linked shared library arm64
+---
+-
+---
+---
+-
+---
+./ISO8601DateFormatterValueTransformer.framework/ISO8601DateFormatterValueTransformer: Mach-O universal binary with 3 architectures: [x86_64:Mach-O 64-bit dynamically linked shared library x86_64] [arm_v7:Mach-O dynamically linked shared library arm_v7] [arm64:Mach-O 64-bit dynamically linked shared library arm64]
+./ISO8601DateFormatterValueTransformer.framework/ISO8601DateFormatterValueTransformer (for architecture x86_64):	Mach-O 64-bit dynamically linked shared library x86_64
+./ISO8601DateFormatterValueTransformer.framework/ISO8601DateFormatterValueTransformer (for architecture armv7):	Mach-O dynamically linked shared library arm_v7
+./ISO8601DateFormatterValueTransformer.framework/ISO8601DateFormatterValueTransformer (for architecture arm64):	Mach-O 64-bit dynamically linked shared library arm64
+---
+-
+---
