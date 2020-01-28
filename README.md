@@ -6,7 +6,9 @@ Unofficial Bindings for SumSubstance SDK https://developers.sumsub.com/
 All built fat frameworks including dependencies can be found at: 
 https://github.com/SumSubstance/KYC-iOS-Release/blob/master/2.11.1/SumSubstanceKYC.Frameworks.zip
 
-So Cocoapods or Carthage files are not needed.
+So `Cocoapods` or `Carthage` files are not needed.
+
+`TODO:` maybe change paths in bindings generator scripts
 
 
 ### Implementation Notes:
