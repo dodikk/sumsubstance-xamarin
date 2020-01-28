@@ -4,11 +4,21 @@ sharpie bind                                                              \
     -output ../lib-bindings/SumSubSDK/SumSubSDK.ios                       \
     -namespace "SumSubstance.iOS"
 
-sharpie bind                                                                              \
-    -framework ../lib-native/ios/frameworks/fat/SumSubstanceKYC_DocumentTracker.framework \
-    -sdk iphoneos13.2                                                                     \
-    -output ../lib-bindings/SumSubSDK/SumSubSDK.DocumentTracker.ios                       \
-    -namespace "SumSubstance.DocumentTracker.iOS"
+### Note: this is commented since DocumentTracker.framework has no headers
+#         it should be ok to link that without binding project or with an empty one
+#
+#   TODO: probaly an umbrella pods framework can be a better target to link depencencies
+#
+# sharpie bind                                                                              \
+#    -framework ../lib-native/ios/frameworks/fat/SumSubstanceKYC_DocumentTracker.framework \
+#    -sdk iphoneos13.2                                                                     \
+#    -output ../lib-bindings/SumSubSDK/SumSubSDK.DocumentTracker.ios                       \
+#    -namespace "SumSubstance.DocumentTracker.iOS"
+
+
+# Exiting with error code 1.
+# error: SumSubstanceKYC_DocumentTracker: Umbrella header file does not exist: ../lib-native/ios/frameworks/fat/SumSubstanceKYC_DocumentTracker.framework/Headers/SumSubstanceKYC_DocumentTracker.h
+
 
 
 #### Sharpie docs
