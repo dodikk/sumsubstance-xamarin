@@ -10,6 +10,11 @@ Unofficial Bindings for SumSubstance SDK https://developers.sumsub.com/
 Parse error: expected submodule commit SHA in output of task (ls-tree -z 1.0.1 pages) 
 but encountered:
 ```
+That changes `.gitmodules` file. Still, neither ignoring nor commiting it. 
+```
+Please revert .gitmodules file locally
+```
+
 2. Cocoapods approach is not xamarin friendly as it does not produce fat frameworks
 3. We'll have to fork some dependencies as they do not work well with carthage
 ```
