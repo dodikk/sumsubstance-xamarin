@@ -10,6 +10,7 @@ bin
 *.aar.asc
 *.pom
 *.pom.asc
+packages
 lib-native/ios/Carthage
 lib-native/ios/Pods/
 *.xcuserstate
