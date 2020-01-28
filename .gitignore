@@ -16,3 +16,5 @@ lib-native/ios/Pods/
 lib-native/ios/Sumsub-iOS.xcworkspace/xcshareddata/
 lib-native/ios/SumSubstanceKYC.zip
 lib-native/ios/SumSubstanceKYC-frameworks
+lib-native/ios/frameworks/Debug-iphonesimulator
+lib-native/ios/frameworks/Release-iphoneos
