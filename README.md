@@ -26,3 +26,11 @@ Dependency "RKValueTransformers" has no shared framework schemes
 Dependency "sockit" has no shared framework schemes
 Dependency "TransitionKit" has no shared framework schemes
 ```
+4. Carthage build was successful for
+```
+PocketSVG.framework
+ReactiveObjC.framework
+SDWebImage.framework
+SDWebImageMapKit.framework
+YYText.framework
+```
