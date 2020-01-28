@@ -1,7 +1,7 @@
-sharpie bind                                                              \
-    -framework ../lib-native/ios/frameworks/fat/SumSubstanceKYC.framework \
-    -sdk iphoneos13.2                                                     \
-    -output ../lib-bindings/SumSubSDK/SumSubSDK.ios                       \
+sharpie bind                                                                          \
+    -framework ../lib-native/ios/SumSubstanceKYC.Frameworks/SumSubstanceKYC.framework \
+    -sdk iphoneos13.2                                                                 \
+    -output ../lib-bindings/SumSubSDK/SumSubSDK.ios                                   \
     -namespace "SumSubstance.iOS"
 
 ### Note: this is commented since DocumentTracker.framework has no headers
@@ -9,7 +9,7 @@ sharpie bind                                                              \
 #
 #   TODO: probaly an umbrella pods framework can be a better target to link depencencies
 #
-# sharpie bind                                                                              \
+# sharpie bind                                         \
 #    -framework ../lib-native/ios/frameworks/fat/SumSubstanceKYC_DocumentTracker.framework \
 #    -sdk iphoneos13.2                                                                     \
 #    -output ../lib-bindings/SumSubSDK/SumSubSDK.DocumentTracker.ios                       \
