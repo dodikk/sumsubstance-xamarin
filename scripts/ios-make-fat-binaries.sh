@@ -1,3 +1,19 @@
+## ISO8601DateFormatterValueTransformer
+## PocketSocket
+## RKValueTransformers
+## Reachability
+## RestKit
+## SOCKit
+## TransitionKit
+#
+## TODO: maybe automate copying fat files inside frameworks
+##       for a prototype this is supposed to be manual
+## Note: also assuming that thin frameworks have been built already
+##       and copied to 
+##       * lib-native/ios/frameworks/Debug-iphonesimulator
+##       * lib-native/ios/frameworks/Release-iphoneos
+## -------------
+
 LAUNCH_DIR=$PWD
 
 
