@@ -1,0 +1,6 @@
+framework module SumSubstanceKYC {
+  umbrella header "SumSubstanceKYC.h"
+
+  export *
+  module * { export * }
+}

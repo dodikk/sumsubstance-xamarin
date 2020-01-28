@@ -1,6 +1,13 @@
 # sumsubstance-xamarin
 Unofficial Bindings for SumSubstance SDK https://developers.sumsub.com/
 
+# [iOS] Attention
+
+All built fat frameworks including dependencies can be found at: 
+https://github.com/SumSubstance/KYC-iOS-Release/blob/master/2.11.1/SumSubstanceKYC.Frameworks.zip
+
+So Cocoapods or Carthage files are not needed.
+
 
 ### Implementation Notes:
 

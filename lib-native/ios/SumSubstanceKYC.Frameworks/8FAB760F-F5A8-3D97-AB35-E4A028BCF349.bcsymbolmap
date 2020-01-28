@@ -1,0 +1,18 @@
+BCSymbolMap Version: 2.0
+-[SSZoomAdaptor sdk]
+-[SSZoomAdaptor imageNamed:]
+-[SSZoomAdaptor estimatedZoomFrame]
+-[SSZoomAdaptor applyCustomizationTo:successText:imageHandler:mainBackgroundColors:mainForegroundColor:buttonTextNormalColor:buttonTextHighlightColor:frameBackgroundColor:frameBorderColor:feedbackGradientColors:feedbackTextColor:ovalBorderColor:progressColor:]
+___clang_at_available_requires_core_foundation_framework
+___clang_at_available_requires_core_foundation_framework.cold.1
+__OBJC_PROTOCOL_$_NSObject
+__OBJC_LABEL_PROTOCOL_$_NSObject
+__OBJC_PROTOCOL_$_SSZoomAdaptorProtocol
+__OBJC_LABEL_PROTOCOL_$_SSZoomAdaptorProtocol
+Apple clang version 11.0.0 (clang-1100.0.33.12)
+/Users/sergress/Documents/Work/xcode/Projects/SumSubstance/KYC-iOS-Source/SumSubstanceKYC_Liveness3D/SSZoomAdaptor.m
+/Work/xcode/Projects/SumSubstance/KYC-iOS-Source
+CGRectMake
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h
+/Users/sergress/Documents/Work/xcode/Projects/SumSubstance/KYC-iOS-Source/SumSubstanceKYC_Liveness3D/SSLiveness3DDummy.m
+/Users/sergress/Documents/Work/xcode/Projects/SumSubstance/KYC-iOS-Source/build/DerivedData/Build/Intermediates.noindex/ssmSDK.build/Release-iphoneos/SumSubstanceKYC_Liveness3D.build/DerivedSources/SumSubstanceKYC_Liveness3D_vers.c
