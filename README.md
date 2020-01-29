@@ -75,3 +75,12 @@ Native dependencies which cause bindings to fail :
 
 Links and tutorials :
 https://bsubramanyamraju.blogspot.com/2018/02/how-to-use-constraintlayout-in.html
+https://github.com/brianwernick/ExoMedia
+com.devbrackets.android.exomedia.ui.widget.VideoView
+
+
+IMPORTANT: Exoplayer 2.9.0 and up requires Visual Studio 2019 with R8 and D8. You also need to enable AAPT2. Readmore at: https://devblogs.microsoft.com/xamarin/androids-d8-dexer-and-r8-shrinker/
+https://github.com/Baseflow/ExoPlayerXamarin
+
+
+
