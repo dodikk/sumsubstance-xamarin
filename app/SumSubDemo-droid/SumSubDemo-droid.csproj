@@ -18,7 +18,7 @@
     <AndroidResgenClass>Resource</AndroidResgenClass>
     <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
     <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
-    <TargetFrameworkVersion>v8.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
@@ -93,6 +93,16 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.Android.Support.Design" Version="27.0.2.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\lib-bindings\SumSubSDK\SumSubSDK.Client.droid\SumSubSDK.Client.droid.csproj">
+      <Project>{bf791983-dcfa-42ed-890a-ed3b2c83f07e}</Project>
+      <Name>SumSubSDK.Client.droid</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\lib-bindings\SumSubSDK\SumSubSDK.Core.droid\SumSubSDK.Core.droid.csproj">
+      <Project>{9e4ee55c-fe2f-48cb-8465-8cad4f3d845f}</Project>
+      <Name>SumSubSDK.Core.droid</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
