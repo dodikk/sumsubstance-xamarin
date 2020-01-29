@@ -1,7 +1,7 @@
 using System;
 using Foundation;
 using ObjCRuntime;
-using SumSubstanceKYC_Liveness3D;
+// using SumSubstanceKYC_Liveness3D;
 using UIKit;
 
 namespace SumSubstance.Liveness3D.iOS
@@ -21,112 +21,90 @@ namespace SumSubstance.Liveness3D.iOS
 	{
 		// @optional -(UIColor *)mainBgColor;
 		[Export ("mainBgColor")]
-		[Verify (MethodToProperty)]
 		UIColor MainBgColor { get; }
 
 		// @optional -(UIColor *)titleColor;
 		[Export ("titleColor")]
-		[Verify (MethodToProperty)]
 		UIColor TitleColor { get; }
 
 		// @optional -(UIColor *)statusColor;
 		[Export ("statusColor")]
-		[Verify (MethodToProperty)]
 		UIColor StatusColor { get; }
 
 		// @optional -(UIColor *)actionButtonColor;
 		[Export ("actionButtonColor")]
-		[Verify (MethodToProperty)]
 		UIColor ActionButtonColor { get; }
 
 		// @optional -(UIColor *)cancelButtonColor;
 		[Export ("cancelButtonColor")]
-		[Verify (MethodToProperty)]
 		UIColor CancelButtonColor { get; }
 
 		// @optional -(UIColor *)retryBgColor;
 		[Export ("retryBgColor")]
-		[Verify (MethodToProperty)]
 		UIColor RetryBgColor { get; }
 
 		// @optional -(NSArray<UIColor *> *)retryBgGradientColors;
 		[Export ("retryBgGradientColors")]
-		[Verify (MethodToProperty)]
 		UIColor[] RetryBgGradientColors { get; }
 
 		// @optional -(UIColor *)retryBorderColor;
 		[Export ("retryBorderColor")]
-		[Verify (MethodToProperty)]
 		UIColor RetryBorderColor { get; }
 
 		// @optional -(UIColor *)retryTitleColor;
 		[Export ("retryTitleColor")]
-		[Verify (MethodToProperty)]
 		UIColor RetryTitleColor { get; }
 
 		// @optional -(UIColor *)retryTextColor;
 		[Export ("retryTextColor")]
-		[Verify (MethodToProperty)]
 		UIColor RetryTextColor { get; }
 
 		// @optional -(UIColor *)retryButtonColor;
 		[Export ("retryButtonColor")]
-		[Verify (MethodToProperty)]
 		UIColor RetryButtonColor { get; }
 
 		// @optional -(UIColor *)retryButtonHighlightColor;
 		[Export ("retryButtonHighlightColor")]
-		[Verify (MethodToProperty)]
 		UIColor RetryButtonHighlightColor { get; }
 
 		// @optional -(NSArray<UIColor *> *)zoomMainGradientColors;
 		[Export ("zoomMainGradientColors")]
-		[Verify (MethodToProperty)]
 		UIColor[] ZoomMainGradientColors { get; }
 
 		// @optional -(UIColor *)zoomMainForegroundColor;
 		[Export ("zoomMainForegroundColor")]
-		[Verify (MethodToProperty)]
 		UIColor ZoomMainForegroundColor { get; }
 
 		// @optional -(UIColor *)zoomFrameBackgroundColor;
 		[Export ("zoomFrameBackgroundColor")]
-		[Verify (MethodToProperty)]
 		UIColor ZoomFrameBackgroundColor { get; }
 
 		// @optional -(UIColor *)zoomFrameBorderColor;
 		[Export ("zoomFrameBorderColor")]
-		[Verify (MethodToProperty)]
 		UIColor ZoomFrameBorderColor { get; }
 
 		// @optional -(UIColor *)zoomButtonColor;
 		[Export ("zoomButtonColor")]
-		[Verify (MethodToProperty)]
 		UIColor ZoomButtonColor { get; }
 
 		// @optional -(UIColor *)zoomButtonHighlightColor;
 		[Export ("zoomButtonHighlightColor")]
-		[Verify (MethodToProperty)]
 		UIColor ZoomButtonHighlightColor { get; }
 
 		// @optional -(UIColor *)zoomProgressColor;
 		[Export ("zoomProgressColor")]
-		[Verify (MethodToProperty)]
 		UIColor ZoomProgressColor { get; }
 
 		// @optional -(UIColor *)zoomOvalBorderColor;
 		[Export ("zoomOvalBorderColor")]
-		[Verify (MethodToProperty)]
 		UIColor ZoomOvalBorderColor { get; }
 
 		// @optional -(NSArray<UIColor *> *)zoomFeedbackGradientColors;
 		[Export ("zoomFeedbackGradientColors")]
-		[Verify (MethodToProperty)]
 		UIColor[] ZoomFeedbackGradientColors { get; }
 
 		// @optional -(UIColor *)zoomFeedbackTextColor;
 		[Export ("zoomFeedbackTextColor")]
-		[Verify (MethodToProperty)]
 		UIColor ZoomFeedbackTextColor { get; }
 	}
 
@@ -211,9 +189,8 @@ namespace SumSubstance.Liveness3D.iOS
 		[Export ("initWithBaseUrl:applicantId:token:locale:tokenExpirationHandler:completionHandler:")]
 		IntPtr Constructor (string baseUrl, string applicantId, string token, string locale, SSLiveness3DTokenExpirationHandler tokenExpirationHandler, SSLiveness3DCompletionHandler completionHandler);
 
-		// -(UIViewController * _Nonnull)getController;
-		[Export ("getController")]
-		[Verify (MethodToProperty)]
-		UIViewController Controller { get; }
+        // -(UIViewController * _Nonnull)getController;
+        [Export("getController")]
+        UIViewController GetController();
 	}
 }
