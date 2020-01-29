@@ -83,4 +83,46 @@ IMPORTANT: Exoplayer 2.9.0 and up requires Visual Studio 2019 with R8 and D8. Yo
 https://github.com/Baseflow/ExoPlayerXamarin
 
 
+Unsolved error message caused by SumSubSDK.Client native library:
+Adding ExoPlayer plug-ins does not help
+```
+2> ...\obj\Debug\90\lp\10\jl\res\layout\video_activity.xml(2): 
+error APT0000: No resource identifier found for attribute 'useDefaultControls' 
+in package 'SumSubDemo_droid.SumSubDemo_droid'
+```
 
+Control which causes the issue:
+```
+<FrameLayout 
+	android:layout_width="match_parent" 
+	android:layout_height="match_parent" 
+	android:background="#000000" 
+	xmlns:android="http://schemas.android.com/apk/res/android" 
+	xmlns:app="http://schemas.android.com/apk/res-auto" 
+	xmlns:tools="http://schemas.android.com/tools">
+	
+	<com.devbrackets.android.exomedia.ui.widget.VideoView 
+		android:id="@+id/video_view" 
+		android:layout_width="match_parent" 
+		android:layout_height="match_parent" 
+>>>		app:useDefaultControls="true" />
+		
+	<ImageView 
+		android:id="@+id/video_close" 
+		android:layout_width="56dp" 
+		android:layout_height="56dp" 
+		android:scaleType="center" 
+		android:layout_gravity="right|top" 
+		app:srcCompat="@drawable/ic_video_close" 
+		tools:ignore="ContentDescription" />
+		
+</FrameLayout>
+```
+
+
+
+
+```
+1>COMPILETODALVIK : Uncaught translation error : com.android.dx.cf.code.SimException: invalid opcode ba (invokedynamic requires --min-sdk-version >= 26)
+```
+THis happens when SumSubSDK.Client is disabled
