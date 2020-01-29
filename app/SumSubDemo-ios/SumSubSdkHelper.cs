@@ -17,6 +17,9 @@ namespace SumSubDemo_ios
                 return _engineSingleton;
             }
 
+            var colorConfig = new KYCColorConfig();
+            var imageConfig = new KYCImageConfig();
+
             // https://developers.sumsub.com/msdk/ios.html#usage
             // -
             _engineSingleton = SSFacade.SetupForApplicant(
@@ -25,8 +28,8 @@ namespace SumSubDemo_ios
                 locale: NSLocale.CurrentLocale.LocaleIdentifier.ToString(),
                 supportEmail: "",
                 baseUrl: "test-msdk.sumsub.com", // baseUrl - test-msdk.sumsub.com for test environment or msdk.sumsub.com for production one
-                colorConfig: null, // nil or subclass of KYCColorConfig (for color pallet customization)
-                imageConfig: null  // nil or subclass of KYCImageConfig (for icons customization)
+                colorConfig: colorConfig, // nil or subclass of KYCColorConfig (for color pallet customization)
+                imageConfig: imageConfig  // nil or subclass of KYCImageConfig (for icons customization)
             );
 
             return _engineSingleton;
