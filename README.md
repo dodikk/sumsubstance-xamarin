@@ -15,7 +15,7 @@ Path in bindings generator script leads to the new location.
 
 
 
-### Implementation Notes:
+### Implementation Notes - iOS:
 
 1. `carthage update --use-submodules` build command should be used
    In order to overcome error 
@@ -47,3 +47,21 @@ SDWebImage.framework
 SDWebImageMapKit.framework
 YYText.framework
 ```
+
+### Implementation Notes - droid:
+
+jar binary download root path : https://dl.bintray.com/sumsub/maven/com/sumsub/
+
+
+* core -
+    - https://dl.bintray.com/sumsub/maven/com/sumsub/kyc-core/3.0.1/:kyc-core-3.0.1.aar
+    - https://dl.bintray.com/sumsub/maven/com/sumsub/kyc-core/3.0.1/:kyc-core-3.0.1.pom
+* [?] Liveness3D -
+    - https://dl.bintray.com/sumsub/maven/com/sumsub/kyc-liveness3d/3.0.1/:kyc-liveness3d-3.0.1.aar
+    - https://dl.bintray.com/sumsub/maven/com/sumsub/kyc-liveness3d/3.0.1/:kyc-liveness3d-3.0.1.pom
+* [?] KYC module
+    - https://dl.bintray.com/sumsub/maven/com/sumsub/kyc_module/2.1.4/:kyc_module-2.1.4.aar
+    - https://dl.bintray.com/sumsub/maven/com/sumsub/kyc_module/2.1.4/:kyc_module-2.1.4.pom
+* KYC client
+    - https://dl.bintray.com/sumsub/maven/com/sumsub/kyc-client/3.0.1/:kyc-client-3.0.1.aar
+    - https://dl.bintray.com/sumsub/maven/com/sumsub/kyc-client/3.0.1/:kyc-client-3.0.1.pom
