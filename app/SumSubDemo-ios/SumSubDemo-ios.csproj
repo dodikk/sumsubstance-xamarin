@@ -132,6 +132,7 @@
         <Compile Include="ViewController.designer.cs">
             <DependentUpon>ViewController.cs</DependentUpon>
         </Compile>
+        <Compile Include="SumSubSdkHelper.cs" />
     </ItemGroup>
     <ItemGroup>
       <ProjectReference Include="..\..\lib-bindings\SumSubSDK\SumSubSDK.ios\SumSubSDK.ios.csproj">
