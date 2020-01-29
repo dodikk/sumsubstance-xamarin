@@ -65,5 +65,9 @@
 	<string>Assets.xcassets/AppIcon.appiconset</string>
 	<key>CFBundleName</key>
 	<string>SumSubDemo_ios</string>
+	<key>NSCameraUsageDescription</key>
+	<string>You must allow camera access to make a photo of your id and other required documents</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>You must allow microphone access to let us record your voice as part of the KYC info</string>
 </dict>
 </plist>
