@@ -65,3 +65,11 @@ jar binary download root path : https://dl.bintray.com/sumsub/maven/com/sumsub/
 * KYC client
     - https://dl.bintray.com/sumsub/maven/com/sumsub/kyc-client/3.0.1/:kyc-client-3.0.1.aar
     - https://dl.bintray.com/sumsub/maven/com/sumsub/kyc-client/3.0.1/:kyc-client-3.0.1.pom
+
+Caution: When created on mac, the Xamarin.Android project fails to build out of box.
+
+Native dependencies which cause bindings to fail :
+* ConstraintLayout is not part of AppCompat. It's a standalone library.
+* compile 'com.android.support:cardview-v7:23.1.1'
+* riv_corner_radius  - RoundedImageView (https://github.com/vinc3m1/RoundedImageView).
+
