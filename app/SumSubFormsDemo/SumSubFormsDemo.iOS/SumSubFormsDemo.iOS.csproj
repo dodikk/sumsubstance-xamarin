@@ -133,9 +133,5 @@
       <Project>{F6AF4061-28CD-4410-B9AC-6A482ABF59E9}</Project>
       <Name>SumSubSDK.ios</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\lib-bindings\SumSubSDK\SumSubSDK.DocumentTracker.ios\SumSubSDK.DocumentTracker.ios.csproj">
-      <Project>{6E35753C-88C1-49AD-AA5D-276CDD6EA928}</Project>
-      <Name>SumSubSDK.DocumentTracker.ios</Name>
-    </ProjectReference>
   </ItemGroup>
 </Project>

@@ -41,57 +41,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ObjcBindingApiDefinition Include="ApiDefinition.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ObjcBindingCoreSource Include="Structs.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <NativeReference Include="..\..\..\lib-native\ios\SumSubstanceKYC.Frameworks\SumSubstanceKYC.framework">
-      <Kind>Framework</Kind>
-      <SmartLink>False</SmartLink>
-    </NativeReference>
-    <NativeReference Include="..\..\..\lib-native\ios\SumSubstanceKYC.Frameworks\Deps\ISO8601DateFormatterValueTransformer\ISO8601DateFormatterValueTransformer.framework">
-      <Kind>Framework</Kind>
-      <SmartLink>False</SmartLink>
-    </NativeReference>
-    <NativeReference Include="..\..\..\lib-native\ios\SumSubstanceKYC.Frameworks\Deps\PocketSocket\PocketSocket.framework">
-      <Kind>Framework</Kind>
-      <SmartLink>False</SmartLink>
-    </NativeReference>
-    <NativeReference Include="..\..\..\lib-native\ios\SumSubstanceKYC.Frameworks\Deps\PocketSVG\PocketSVG.framework">
-      <Kind>Framework</Kind>
-      <SmartLink>False</SmartLink>
-    </NativeReference>
-    <NativeReference Include="..\..\..\lib-native\ios\SumSubstanceKYC.Frameworks\Deps\Reachability\Reachability.framework">
-      <Kind>Framework</Kind>
-      <SmartLink>False</SmartLink>
-    </NativeReference>
-    <NativeReference Include="..\..\..\lib-native\ios\SumSubstanceKYC.Frameworks\Deps\ReactiveObjC\ReactiveObjC.framework">
-      <Kind>Framework</Kind>
-      <SmartLink>False</SmartLink>
-    </NativeReference>
-    <NativeReference Include="..\..\..\lib-native\ios\SumSubstanceKYC.Frameworks\Deps\RestKit\RestKit.framework">
-      <Kind>Framework</Kind>
-      <SmartLink>False</SmartLink>
-    </NativeReference>
-    <NativeReference Include="..\..\..\lib-native\ios\SumSubstanceKYC.Frameworks\Deps\RKValueTransformers\RKValueTransformers.framework">
-      <Kind>Framework</Kind>
-      <SmartLink>False</SmartLink>
-    </NativeReference>
-    <NativeReference Include="..\..\..\lib-native\ios\SumSubstanceKYC.Frameworks\Deps\SDWebImage\SDWebImage.framework">
-      <Kind>Framework</Kind>
-      <SmartLink>False</SmartLink>
-    </NativeReference>
-    <NativeReference Include="..\..\..\lib-native\ios\SumSubstanceKYC.Frameworks\Deps\SOCKit\SOCKit.framework">
-      <Kind>Framework</Kind>
-      <SmartLink>False</SmartLink>
-    </NativeReference>
-    <NativeReference Include="..\..\..\lib-native\ios\SumSubstanceKYC.Frameworks\Deps\TransitionKit\TransitionKit.framework">
-      <Kind>Framework</Kind>
-      <SmartLink>False</SmartLink>
-    </NativeReference>
-    <NativeReference Include="..\..\..\lib-native\ios\SumSubstanceKYC.Frameworks\Deps\YYText\YYText.framework">
+    <NativeReference Include="..\..\..\lib-native\ios\SumSubstanceKYC-frameworks\SumSubstanceKYC_DocumentTracker.framework">
       <Kind>Framework</Kind>
       <SmartLink>False</SmartLink>
     </NativeReference>

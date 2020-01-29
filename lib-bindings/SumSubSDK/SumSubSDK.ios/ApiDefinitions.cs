@@ -1,7 +1,7 @@
 using System;
 using Foundation;
 using ObjCRuntime;
-using SumSubstanceKYC;
+// using SumSubstanceKYC;
 using UIKit;
 
 namespace SumSubstance.iOS
@@ -31,7 +31,6 @@ namespace SumSubstance.iOS
 		// +(NSString * _Nullable)sdkVersion;
 		[Static]
 		[NullAllowed, Export ("sdkVersion")]
-		[Verify (MethodToProperty)]
 		string SdkVersion { get; }
 	}
 
@@ -84,317 +83,259 @@ namespace SumSubstance.iOS
 
 		// -(UIColor * _Nonnull)alertPositive;
 		[Export ("alertPositive")]
-		[Verify (MethodToProperty)]
 		UIColor AlertPositive { get; }
 
 		// -(UIColor * _Nonnull)alertNegative;
 		[Export ("alertNegative")]
-		[Verify (MethodToProperty)]
 		UIColor AlertNegative { get; }
 
 		// -(UIColor * _Nonnull)navigationTint;
 		[Export ("navigationTint")]
-		[Verify (MethodToProperty)]
 		UIColor NavigationTint { get; }
 
 		// -(UIColor * _Nonnull)navigationBarTint;
 		[Export ("navigationBarTint")]
-		[Verify (MethodToProperty)]
 		UIColor NavigationBarTint { get; }
 
 		// -(UIColor * _Nonnull)navigationTitleColor;
 		[Export ("navigationTitleColor")]
-		[Verify (MethodToProperty)]
 		UIColor NavigationTitleColor { get; }
 
 		// -(NSDictionary<NSAttributedStringKey,id> * _Nonnull)navigationTitleTextAttributes;
 		[Export ("navigationTitleTextAttributes")]
-		[Verify (MethodToProperty)]
 		NSDictionary<NSString, NSObject> NavigationTitleTextAttributes { get; }
 
 		// -(UIStatusBarStyle)preferredStatusBarStyle;
 		[Export ("preferredStatusBarStyle")]
-		[Verify (MethodToProperty)]
 		UIStatusBarStyle PreferredStatusBarStyle { get; }
 
 		// -(UIColor * _Nonnull)supportBackground;
 		[Export ("supportBackground")]
-		[Verify (MethodToProperty)]
 		UIColor SupportBackground { get; }
 
 		// -(UIColor * _Nonnull)supportDivider;
 		[Export ("supportDivider")]
-		[Verify (MethodToProperty)]
 		UIColor SupportDivider { get; }
 
 		// -(UIColor * _Nonnull)supportSubtitle;
 		[Export ("supportSubtitle")]
-		[Verify (MethodToProperty)]
 		UIColor SupportSubtitle { get; }
 
 		// -(UIColor * _Nonnull)supportText;
 		[Export ("supportText")]
-		[Verify (MethodToProperty)]
 		UIColor SupportText { get; }
 
 		// -(UIColor * _Nonnull)supportIcon;
 		[Export ("supportIcon")]
-		[Verify (MethodToProperty)]
 		UIColor SupportIcon { get; }
 
 		// -(UIColor * _Nonnull)pickerBackground;
 		[Export ("pickerBackground")]
-		[Verify (MethodToProperty)]
 		UIColor PickerBackground { get; }
 
 		// -(UIColor * _Nonnull)pickerSearchBarTint;
 		[Export ("pickerSearchBarTint")]
-		[Verify (MethodToProperty)]
 		UIColor PickerSearchBarTint { get; }
 
 		// -(UIColor * _Nonnull)pickerSearchBarText;
 		[Export ("pickerSearchBarText")]
-		[Verify (MethodToProperty)]
 		UIColor PickerSearchBarText { get; }
 
 		// -(UIColor * _Nonnull)pickerHeaderPaneBackground;
 		[Export ("pickerHeaderPaneBackground")]
-		[Verify (MethodToProperty)]
 		UIColor PickerHeaderPaneBackground { get; }
 
 		// -(UIColor * _Nonnull)pickerHeaderBackground;
 		[Export ("pickerHeaderBackground")]
-		[Verify (MethodToProperty)]
 		UIColor PickerHeaderBackground { get; }
 
 		// -(UIColor * _Nonnull)pickerHeaderText;
 		[Export ("pickerHeaderText")]
-		[Verify (MethodToProperty)]
 		UIColor PickerHeaderText { get; }
 
 		// -(UIColor * _Nonnull)pickerItemBackground;
 		[Export ("pickerItemBackground")]
-		[Verify (MethodToProperty)]
 		UIColor PickerItemBackground { get; }
 
 		// -(UIColor * _Nonnull)pickerItemSelectedBackground;
 		[Export ("pickerItemSelectedBackground")]
-		[Verify (MethodToProperty)]
 		UIColor PickerItemSelectedBackground { get; }
 
 		// -(UIColor * _Nonnull)pickerItemText;
 		[Export ("pickerItemText")]
-		[Verify (MethodToProperty)]
 		UIColor PickerItemText { get; }
 
 		// -(UIColor * _Nonnull)chatBackground;
 		[Export ("chatBackground")]
-		[Verify (MethodToProperty)]
 		UIColor ChatBackground { get; }
 
 		// -(UIColor * _Nonnull)typingIndicatorColor;
 		[Export ("typingIndicatorColor")]
-		[Verify (MethodToProperty)]
 		UIColor TypingIndicatorColor { get; }
 
 		// -(UIColor * _Nonnull)actionButtonText;
 		[Export ("actionButtonText")]
-		[Verify (MethodToProperty)]
 		UIColor ActionButtonText { get; }
 
 		// -(UIColor * _Nonnull)actionButtonBackground;
 		[Export ("actionButtonBackground")]
-		[Verify (MethodToProperty)]
 		UIColor ActionButtonBackground { get; }
 
 		// -(UIColor * _Nonnull)actionButtonHighlightedBackground;
 		[Export ("actionButtonHighlightedBackground")]
-		[Verify (MethodToProperty)]
 		UIColor ActionButtonHighlightedBackground { get; }
 
 		// -(UIColor * _Nonnull)networkStateSpinner;
 		[Export ("networkStateSpinner")]
-		[Verify (MethodToProperty)]
 		UIColor NetworkStateSpinner { get; }
 
 		// -(UIColor * _Nonnull)networkStateText;
 		[Export ("networkStateText")]
-		[Verify (MethodToProperty)]
 		UIColor NetworkStateText { get; }
 
 		// -(UIColor * _Nonnull)incomingMessageBubble;
 		[Export ("incomingMessageBubble")]
-		[Verify (MethodToProperty)]
 		UIColor IncomingMessageBubble { get; }
 
 		// -(UIColor * _Nonnull)incomingMessageText;
 		[Export ("incomingMessageText")]
-		[Verify (MethodToProperty)]
 		UIColor IncomingMessageText { get; }
 
 		// -(UIColor * _Nonnull)incomingMessageTime;
 		[Export ("incomingMessageTime")]
-		[Verify (MethodToProperty)]
 		UIColor IncomingMessageTime { get; }
 
 		// -(UIColor * _Nonnull)acceptedMessageBubble;
 		[Export ("acceptedMessageBubble")]
-		[Verify (MethodToProperty)]
 		UIColor AcceptedMessageBubble { get; }
 
 		// -(UIColor * _Nonnull)acceptedMessageText;
 		[Export ("acceptedMessageText")]
-		[Verify (MethodToProperty)]
 		UIColor AcceptedMessageText { get; }
 
 		// -(UIColor * _Nonnull)acceptedMessageTime;
 		[Export ("acceptedMessageTime")]
-		[Verify (MethodToProperty)]
 		UIColor AcceptedMessageTime { get; }
 
 		// -(UIColor * _Nonnull)incomingMessageDeclinedText;
 		[Export ("incomingMessageDeclinedText")]
-		[Verify (MethodToProperty)]
 		UIColor IncomingMessageDeclinedText { get; }
 
 		// -(UIColor * _Nonnull)outgoingMessageBubble;
 		[Export ("outgoingMessageBubble")]
-		[Verify (MethodToProperty)]
 		UIColor OutgoingMessageBubble { get; }
 
 		// -(UIColor * _Nonnull)outgoingMessageText;
 		[Export ("outgoingMessageText")]
-		[Verify (MethodToProperty)]
 		UIColor OutgoingMessageText { get; }
 
 		// -(UIColor * _Nonnull)outgoingMessageTime;
 		[Export ("outgoingMessageTime")]
-		[Verify (MethodToProperty)]
 		UIColor OutgoingMessageTime { get; }
 
 		// -(UIColor * _Nonnull)previewBackground;
 		[Export ("previewBackground")]
-		[Verify (MethodToProperty)]
 		UIColor PreviewBackground { get; }
 
 		// -(UIColor * _Nonnull)acceptAttachmentButtonBackground;
 		[Export ("acceptAttachmentButtonBackground")]
-		[Verify (MethodToProperty)]
 		UIColor AcceptAttachmentButtonBackground { get; }
 
 		// -(UIColor * _Nonnull)acceptAttachmentButtonHighlighted;
 		[Export ("acceptAttachmentButtonHighlighted")]
-		[Verify (MethodToProperty)]
 		UIColor AcceptAttachmentButtonHighlighted { get; }
 
 		// -(UIColor * _Nonnull)acceptAttachmentButtonText;
 		[Export ("acceptAttachmentButtonText")]
-		[Verify (MethodToProperty)]
 		UIColor AcceptAttachmentButtonText { get; }
 
 		// -(UIColor * _Nonnull)acceptAttachmentButtonIcon;
 		[Export ("acceptAttachmentButtonIcon")]
-		[Verify (MethodToProperty)]
 		UIColor AcceptAttachmentButtonIcon { get; }
 
 		// -(UIColor * _Nonnull)retakeAttachmentButtonBackground;
 		[Export ("retakeAttachmentButtonBackground")]
-		[Verify (MethodToProperty)]
 		UIColor RetakeAttachmentButtonBackground { get; }
 
 		// -(UIColor * _Nonnull)retakeAttachmentButtonText;
 		[Export ("retakeAttachmentButtonText")]
-		[Verify (MethodToProperty)]
 		UIColor RetakeAttachmentButtonText { get; }
 
 		// -(UIColor * _Nonnull)retakeAttachmentButtonIcon;
 		[Export ("retakeAttachmentButtonIcon")]
-		[Verify (MethodToProperty)]
 		UIColor RetakeAttachmentButtonIcon { get; }
 
 		// -(UIColor * _Nonnull)uploadProgressBarBackground;
 		[Export ("uploadProgressBarBackground")]
-		[Verify (MethodToProperty)]
 		UIColor UploadProgressBarBackground { get; }
 
 		// -(UIColor * _Nonnull)cameraCancelText;
 		[Export ("cameraCancelText")]
-		[Verify (MethodToProperty)]
 		UIColor CameraCancelText { get; }
 
 		// -(UIColor * _Nonnull)cameraHintText;
 		[Export ("cameraHintText")]
-		[Verify (MethodToProperty)]
 		UIColor CameraHintText { get; }
 
 		// -(UIColor * _Nonnull)detectedDocumentBoundaries;
 		[Export ("detectedDocumentBoundaries")]
-		[Verify (MethodToProperty)]
 		UIColor DetectedDocumentBoundaries { get; }
 
-		// -(id<SSLiveness3DThemeProtocol> _Nonnull)liveness3dTheme;
-		[Export ("liveness3dTheme")]
-		[Verify (MethodToProperty)]
-		SSLiveness3DThemeProtocol Liveness3dTheme { get; }
+        // -(id<SSLiveness3DThemeProtocol> _Nonnull)liveness3dTheme;
+        //[Export ("liveness3dTheme")]
+        //[Verify (MethodToProperty)]
+        //SSLiveness3DThemeProtocol Liveness3dTheme { get; }
 
-		// -(UIColor * _Nonnull)videoFaceDetected;
-		[Export ("videoFaceDetected")]
-		[Verify (MethodToProperty)]
+        // TODO: [alex-d] uncomment Liveness3dTheme property if needed
+        // Note: another binding project might be required for that
+        // -
+
+        // -(UIColor * _Nonnull)videoFaceDetected;
+        [Export ("videoFaceDetected")]
 		UIColor VideoFaceDetected { get; }
 
 		// -(UIColor * _Nonnull)videoFaceNotDetected;
 		[Export ("videoFaceNotDetected")]
-		[Verify (MethodToProperty)]
 		UIColor VideoFaceNotDetected { get; }
 
 		// -(UIColor * _Nonnull)videoCoverBg;
 		[Export ("videoCoverBg")]
-		[Verify (MethodToProperty)]
 		UIColor VideoCoverBg { get; }
 
 		// -(UIColor * _Nonnull)videoLandmarks;
 		[Export ("videoLandmarks")]
-		[Verify (MethodToProperty)]
 		UIColor VideoLandmarks { get; }
 
 		// -(UIColor * _Nonnull)videoReadAloudLabelText;
 		[Export ("videoReadAloudLabelText")]
-		[Verify (MethodToProperty)]
 		UIColor VideoReadAloudLabelText { get; }
 
 		// -(UIColor * _Nonnull)videoHintLabelText;
 		[Export ("videoHintLabelText")]
-		[Verify (MethodToProperty)]
 		UIColor VideoHintLabelText { get; }
 
 		// -(UIColor * _Nonnull)videoPrepareRecording;
 		[Export ("videoPrepareRecording")]
-		[Verify (MethodToProperty)]
 		UIColor VideoPrepareRecording { get; }
 
 		// -(UIColor * _Nonnull)tosBackground;
 		[Export ("tosBackground")]
-		[Verify (MethodToProperty)]
 		UIColor TosBackground { get; }
 
 		// -(UIColor * _Nonnull)tosGotItBackground;
 		[Export ("tosGotItBackground")]
-		[Verify (MethodToProperty)]
 		UIColor TosGotItBackground { get; }
 
 		// -(UIColor * _Nonnull)tosGotItHighlighted;
 		[Export ("tosGotItHighlighted")]
-		[Verify (MethodToProperty)]
 		UIColor TosGotItHighlighted { get; }
 
 		// -(UIColor * _Nonnull)tosGotItText;
 		[Export ("tosGotItText")]
-		[Verify (MethodToProperty)]
 		UIColor TosGotItText { get; }
 
 		// -(UIColor * _Nonnull)tosGotItIcon;
 		[Export ("tosGotItIcon")]
-		[Verify (MethodToProperty)]
 		UIColor TosGotItIcon { get; }
 	}
 
