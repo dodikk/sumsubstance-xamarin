@@ -7,7 +7,7 @@ sharpie bind                                                                    
 sharpie bind                                                                          \
     -framework ../lib-native/ios/SumSubstanceKYC.Frameworks/SumSubstanceKYC_Liveness3D.framework \
     -sdk iphoneos13.2                                                                 \
-    -output lib-bindings/SumSubSDK/SumSubSDK.Liveness3D.ios                           \
+    -output ../lib-bindings/SumSubSDK/SumSubSDK.Liveness3D.ios                        \
     -namespace "SumSubstance.Liveness3D.iOS"
 
 
