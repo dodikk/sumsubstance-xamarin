@@ -73,3 +73,5 @@ Native dependencies which cause bindings to fail :
 * compile 'com.android.support:cardview-v7:23.1.1'
 * riv_corner_radius  - RoundedImageView (https://github.com/vinc3m1/RoundedImageView).
 
+Links and tutorials :
+https://bsubramanyamraju.blogspot.com/2018/02/how-to-use-constraintlayout-in.html
