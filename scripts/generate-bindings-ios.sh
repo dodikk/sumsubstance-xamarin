@@ -4,6 +4,14 @@ sharpie bind                                                                    
     -output ../lib-bindings/SumSubSDK/SumSubSDK.ios                                   \
     -namespace "SumSubstance.iOS"
 
+sharpie bind                                                                          \
+    -framework ../lib-native/ios/SumSubstanceKYC.Frameworks/SumSubstanceKYC_Liveness3D.framework \
+    -sdk iphoneos13.2                                                                 \
+    -output lib-bindings/SumSubSDK/SumSubSDK.Liveness3D.ios                           \
+    -namespace "SumSubstance.Liveness3D.iOS"
+
+
+
 ### Note: this is commented since DocumentTracker.framework has no headers
 #         it should be ok to link that without binding project or with an empty one
 #
