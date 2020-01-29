@@ -42,9 +42,6 @@
     <Compile Include="ApiDefinitions.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ObjcBindingCoreSource Include="Structs.cs" />
-  </ItemGroup>
-  <ItemGroup>
     <NativeReference Include="..\..\..\lib-native\ios\SumSubstanceKYC.Frameworks\SumSubstanceKYC.framework">
       <Kind>Framework</Kind>
       <SmartLink>False</SmartLink>
