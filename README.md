@@ -151,3 +151,28 @@ https://github.com/Baseflow/ExoPlayerXamarin/issues/64
 
 This blogpost might help to overcome the issue
 http://www.andipalo.com/2017/07/16/java-seesharp-xamarin/
+
+
+
+```
+    obj/Debug/android/src/mono/com/devbrackets/android/exomedia/core/listener/CaptionListenerImplementor.java:4: error: CaptionListenerImplementor is not abstract and does not override abstract method onCues(List<Cue>) in CaptionListener
+    public class CaptionListenerImplementor
+           ^
+    obj/Debug/android/src/mono/com/devbrackets/android/exomedia/core/listener/MetadataListenerImplementor.java:4: error: MetadataListenerImplementor is not abstract and does not override abstract method onMetadata(Metadata) in MetadataListener
+    public class MetadataListenerImplementor
+           ^
+    obj/Debug/android/src/mono/com/sumsub/kyc/client/ui/chat/ChatListClickListenerImplementor.java:4: error: ChatListClickListenerImplementor is not abstract and does not override abstract method onScenarioClick(ScenarioBaseEntity) in ChatListClickListener
+    public class ChatListClickListenerImplementor
+           ^
+    obj/Debug/android/src/mono/com/sumsub/kyc/client/ui/picker/PickerOnItemClickListenerImplementor.java:4: error: PickerOnItemClickListenerImplementor is not abstract and does not override abstract method onItemClick(MapItemEntity) in PickerOnItemClickListener
+    public class PickerOnItemClickListenerImplementor
+           ^
+    Note: Some input files use or override a deprecated API.
+    Note: Recompile with -Xlint:deprecation for details.
+    Note: Some input files use unchecked or unsafe operations.
+    Note: Recompile with -Xlint:unchecked for details.
+    4 errors
+```
+
+
+
