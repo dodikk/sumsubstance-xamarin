@@ -149,3 +149,5 @@ New ones have arised:
 https://forums.xamarin.com/discussion/176667/cannot-implement-abstract-method-in-android-java-class
 https://github.com/Baseflow/ExoPlayerXamarin/issues/64
 
+This blogpost might help to overcome the issue
+http://www.andipalo.com/2017/07/16/java-seesharp-xamarin/
