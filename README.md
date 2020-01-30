@@ -146,3 +146,6 @@ New ones have arised:
     obj/Debug/android/src/mono/com/devbrackets/android/exomedia/core/listener/MetadataListenerImplementor.java:4: error: MetadataListenerImplementor is not abstract and does not override abstract method onMetadata(Metadata) in MetadataListener
     public class MetadataListenerImplementor
 ```
+https://forums.xamarin.com/discussion/176667/cannot-implement-abstract-method-in-android-java-class
+https://github.com/Baseflow/ExoPlayerXamarin/issues/64
+
