@@ -126,3 +126,13 @@ Control which causes the issue:
 1>COMPILETODALVIK : Uncaught translation error : com.android.dx.cf.code.SimException: invalid opcode ba (invokedynamic requires --min-sdk-version >= 26)
 ```
 THis happens when SumSubSDK.Client is disabled
+
+
+
+
+Seems like SumSubstance SDK uses ExoMedia which is a different thing from ExoPlayer. 
+Actually, ExoMedia wraps ExoPlayer.
+However, nuget packages are available only for ExoPlayer.
+Will try to build a wrapper project for ExoMedia.
+* https://bintray.com/brianwernick/maven/ExoMedia
+* https://github.com/brianwernick/ExoMedia

@@ -122,6 +122,21 @@
     <PackageReference Include="Xamarin.Android.Support.v7.AppCompat">
       <Version>28.0.0.3</Version>
     </PackageReference>
+    <PackageReference Include="Xamarin.Android.Support.Media.Compat">
+      <Version>28.0.0.3</Version>
+    </PackageReference>
+    <PackageReference Include="Xam.Plugin.Media">
+      <Version>4.0.1.5</Version>
+    </PackageReference>
+    <PackageReference Include="Xam.Plugins.Android.ExoPlayer.Dash">
+      <Version>2.9.8</Version>
+    </PackageReference>
+    <PackageReference Include="Xam.Plugins.Android.ExoPlayer.Hls">
+      <Version>2.9.8</Version>
+    </PackageReference>
+    <PackageReference Include="Xam.Plugins.Android.ExoPlayer.SmoothStreaming">
+      <Version>2.9.8</Version>
+    </PackageReference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\lib-bindings\SumSubSDK\SumSubSDK.Client.droid\SumSubSDK.Client.droid.csproj">
@@ -131,6 +146,10 @@
     <ProjectReference Include="..\..\lib-bindings\SumSubSDK\SumSubSDK.Core.droid\SumSubSDK.Core.droid.csproj">
       <Project>{9e4ee55c-fe2f-48cb-8465-8cad4f3d845f}</Project>
       <Name>SumSubSDK.Core.droid</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\lib-bindings\ExoMedia.droid\ExoMedia.droid.csproj">
+      <Project>{BF040128-E53B-41AB-9EFE-1AD7C501A2B3}</Project>
+      <Name>ExoMedia.droid</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
