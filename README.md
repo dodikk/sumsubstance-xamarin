@@ -136,3 +136,13 @@ However, nuget packages are available only for ExoPlayer.
 Will try to build a wrapper project for ExoMedia.
 * https://bintray.com/brianwernick/maven/ExoMedia
 * https://github.com/brianwernick/ExoMedia
+
+
+
+
+ExoMedia binding project has helped to fix `useDefaultControls` issue
+New ones have arised:
+```
+    obj/Debug/android/src/mono/com/devbrackets/android/exomedia/core/listener/MetadataListenerImplementor.java:4: error: MetadataListenerImplementor is not abstract and does not override abstract method onMetadata(Metadata) in MetadataListener
+    public class MetadataListenerImplementor
+```
